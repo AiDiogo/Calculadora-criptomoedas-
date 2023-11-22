@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>Calculadora de criptomoedas</title>
+</head>
+<body>
+  <h1>Calculadora de criptomoedas</h1>
+  <p>Insira os dados abaixo para calcular o resultado da operação.</p>
+  <form action="/calcular" method="post">
+    <input type="text" name="nome_ativo" placeholder="Nome do ativo">
+    <input type="number" name="preco_ativo" placeholder="Preço do ativo em dólar">
+    <input type="number" name="preco_entrada" placeholder="Preço de entrada">
+    <input type="number" name="preco_alvo" placeholder="Preço alvo">
+    <input type="number" name="margem" placeholder="Margem">
+    <input type="number" name="alavancagem" placeholder="Alavancagem">
+    <input type="submit" value="Calcular">
+  </form>
+</body>
+</html>
